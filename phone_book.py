@@ -79,7 +79,32 @@ def add_contact(pb):
             dip.append(int(input("enter a category family/friends/ work others here :*"))) 
 
     pb.append(dip) 
-    return(pb)
+    return(pb) 
+
+def remove_exsisting(pb): 
+
+    query = input("enter the name you want to remove: ") 
+    temp = 0 
+
+    for i in range(len(pb)): 
+
+        if query == pb[i][0] 
+        temp += i  
+
+
+
+    if temp = 0: 
+            print("sorry , you have entered a wrong name") 
+
+    return pb
+
+def dellet_all(pb): 
+     
+     return pb.clear() 
+ 
+ def search existing(pb): 
+     choice = int(input(enter search catagory))=
+
 
 
 
@@ -96,3 +121,88 @@ def add_contact(pb):
 
 
              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def display_all(pb): 
+     
+     if not pb:
+         ptint("the list is empty") 
+    else: 
+
+         for i in range()
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

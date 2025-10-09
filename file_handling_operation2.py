@@ -1,0 +1,15 @@
+file_read = open("codingal.txt") 
+print("Opeaning the file in  read mode")  
+print(file_read.read()) 
+
+file_write = open("codingal.txt", 'w') 
+print("Opeaning the file in write mode")  
+file_write.write("The file has opened in write mode") 
+file_write.write("I like doing the coding. Today we are gonna do python file handling.") 
+file_write.close() 
+
+file_append = open("codingal.txt", 'a') 
+print("Opeaning the file in append mode") 
+file_append.write("\n file is opening in append mode") 
+file_append.write("\n It is a very easy class") 
+file_append.close() 
