@@ -1,3 +1,4 @@
 The file has opened in write modeI like doing the coding. Today we are gonna do python file handling.
  file is opening in append mode
- It is a very easy class
+ It is a very easy class 
+ coding is fun
