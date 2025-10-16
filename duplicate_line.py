@@ -1,0 +1,17 @@
+update = open("updatefile.txt", 'w') 
+repeat = open("repeatlines.txt", 'r') 
+
+line_seen_so_far = set() 
+
+for line in repeat: 
+
+    if line not in line_seen_so_far: 
+
+        print(line) 
+        update.write(line) 
+        line_seen_so_far.add(line) 
+
+update.close() 
+repeat.close()
+
+
